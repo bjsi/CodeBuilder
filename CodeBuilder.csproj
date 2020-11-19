@@ -5,36 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Templates\PythonAssignment.Mustache" />
-    <None Remove="Templates\PythonClass.Mustache" />
-    <None Remove="Templates\PythonConstructor.Mustache" />
-    <None Remove="Templates\PythonField.Mustache" />
-    <None Remove="Templates\PythonMethod.Mustache" />
-    <None Remove="Templates\PythonReturn.Mustache" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Templates\PythonAssignment.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\PythonClass.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\PythonConstructor.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\PythonField.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\PythonMethod.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Templates\PythonReturn.Mustache">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Stubble.Core" Version="1.9.3" />
   </ItemGroup>
 
